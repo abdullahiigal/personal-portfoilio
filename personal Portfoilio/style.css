@@ -1,0 +1,45 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.intro, .skills, .about-me, .projects, .contact {
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.projects .project-item {
+    margin-bottom: 30px;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .intro, .skills, .about-me, .projects, .contact {
+        width: 80%;
+    }
+}
